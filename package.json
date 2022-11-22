@@ -11,6 +11,7 @@
     "dateformat": "^4.5.1",
     "js-cookie": "^2.2.1",
     "node-pre-gyp": "^0.17.0",
+    "npm-check-updates": "^16.4.1",
     "qs": "^6.5.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -23,7 +24,7 @@
     "styled-components": "^5.2.1"
   },
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && set PORT=3006 && react-scripts start",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "npm i npm-check-updates && npm install && set GENERATE_SOURCEMAP=false && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
